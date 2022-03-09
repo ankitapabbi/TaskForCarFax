@@ -58,7 +58,6 @@ public class AdapterMainList extends RecyclerView.Adapter<AdapterMainList.MyView
 
         String uu = "https://firebasestorage.googleapis.com/v0/b/carfax-for-consumers.appspot.com/o/640x480%2Fabarth-fiat-124-spider-fiat-620.jpeg?alt=media&token=c949768f-ce24-42b5-9f01-324d6667d989";
         String xyz  = dataProvider.getvPhoto();
-
         Glide.with(context).load(xyz).centerCrop().into(holder.imgcar);
         
 
