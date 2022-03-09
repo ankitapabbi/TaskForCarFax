@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
                         String model = jsonObject1.getString("model");
                         String yearr = jsonObject1.getString("year");
                         String trim = jsonObject1.getString("trim");
+                        String id = jsonObject1.getString("trim");
                         String make = jsonObject1.getString("make");
                         String listPrice = jsonObject1.getString("listPrice");
                         String mileage = jsonObject1.getString("mileage");
@@ -102,12 +103,15 @@ public class MainActivity extends AppCompatActivity {
                         String address = obj.getString("address");
 
 
+
                         String ii = jsonObject1.getString("images");
                         JSONObject obj1 = new JSONObject(ii);
-                        String pic = obj1.getString("medium");
+                        JSONObject firstPhotos = obj1.getJSONObject("firstPhoto");
+                        String image = firstPhotos.getString("medium");
+
                       //  String durl = URLDecoder.decode(pic,"UTF-8");
 
-                        String image = pic.replace("\\","");
+                        //String image = pic.replace("\\","");
 
 //                        String finalurl = new Scanner(new URL(pic).openStream(),"utf-88").useDelimiter("\\A").next();
 

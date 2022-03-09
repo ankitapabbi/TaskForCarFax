@@ -178,7 +178,7 @@
             <LinearLayout
                 android:layout_margin="5dp"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
                 <TextView
                     android:layout_margin="5dp"
                     android:textSize="20sp"
@@ -196,10 +196,10 @@
                     android:layout_margin="5dp"
                     android:textSize="20sp"
                     android:textColor="#000"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/excolor"
-                    android:text="39.1k mi"/>
+                    android:text="Blue"/>
 
             </LinearLayout>
 
@@ -220,7 +220,7 @@
                     android:textColor="#918E8E"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Location"/>
+                    android:text="Interior Color"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_margin="5dp"
@@ -234,7 +234,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="39.1k mi"/>
+                    android:text="Black"/>
 
             </LinearLayout>
 
@@ -255,7 +255,7 @@
                     android:textColor="#918E8E"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Location"/>
+                    android:text="Drive Type"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_margin="5dp"
@@ -269,7 +269,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="39.1k mi"/>
+                    android:text="FWD"/>
 
             </LinearLayout>
 
@@ -290,7 +290,7 @@
                     android:textColor="#918E8E"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Location"/>
+                    android:text="Transmission"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_margin="5dp"
@@ -304,7 +304,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="39.1k mi"/>
+                    android:text="Automatic"/>
 
             </LinearLayout>
 
@@ -325,7 +325,7 @@
                     android:textColor="#918E8E"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Location"/>
+                    android:text="Body Type"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_margin="5dp"
@@ -339,7 +339,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="39.1k mi"/>
+                    android:text="Sedan"/>
 
             </LinearLayout>
 
@@ -360,7 +360,7 @@
                     android:textColor="#918E8E"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Location"/>
+                    android:text="Engine"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_margin="5dp"
@@ -374,7 +374,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="39.1k mi"/>
+                    android:text="4 Cyl 2.4L"/>
 
             </LinearLayout>
 
@@ -395,7 +395,7 @@
                     android:textColor="#918E8E"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Location"/>
+                    android:text="Fuel"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_margin="5dp"
@@ -409,7 +409,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="39.1k mi"/>
+                    android:text="Gasoline"/>
 
             </LinearLayout>
 

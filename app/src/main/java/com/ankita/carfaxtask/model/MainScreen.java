@@ -8,13 +8,13 @@ public class MainScreen {
     private String trim;
     private String price;
     private String location;
-    private int id;
+    private String id;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
