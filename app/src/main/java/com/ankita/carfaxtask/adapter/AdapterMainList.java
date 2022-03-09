@@ -80,6 +80,7 @@ public class AdapterMainList extends RecyclerView.Adapter<AdapterMainList.MyView
 
         TextView year,make,model,trim,price,location,mileage;
         ImageView imgcar;
+        
         Button calldealer;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
